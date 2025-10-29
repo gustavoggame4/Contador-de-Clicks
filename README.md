@@ -1,29 +1,33 @@
-Contador de Cliques com Alerta e Reset
+# 🧮 Contador de Cliques com Alerta e Reset
 
-Este projeto é um contador de cliques desenvolvido com HTML, CSS, JavaScript e Bootstrap. Ele tem como objetivo registrar interações do usuário por meio de cliques e apresentar informações úteis de forma simples e visualmente organizada.
+Um projeto simples e interativo desenvolvido com **HTML, CSS, JavaScript e Bootstrap 5**, que demonstra de forma prática o uso de manipulação de eventos, atualização dinâmica do DOM e design responsivo.
 
-Funcionalidades
+---
 
-Contador de cliques que aumenta a cada clique em um botão.
+## 🚀 Visão Geral
 
-Botão de reset que zera o número de cliques.
+O **Contador de Cliques com Alerta e Reset** tem como objetivo registrar interações do usuário por meio de cliques, exibindo estatísticas em tempo real de forma clara e organizada.  
+Além disso, o sistema alerta o usuário sempre que o número de cliques atingir um **múltiplo de 10**, incentivando a interação contínua.
 
-Alerta exibido sempre que o número de cliques for divisível por 10.
+---
 
-Exibição de três informações principais:
+## ⚙️ Funcionalidades
 
-Número atual de cliques.
+- 🖱️ **Contador de Cliques:** aumenta automaticamente a cada clique no botão principal.  
+- 🔁 **Botão de Reset:** zera o contador e reinicia o acompanhamento.  
+- ⚠️ **Alerta Inteligente:** exibe uma notificação sempre que o número de cliques for divisível por 10.  
+- 📊 **Painel de Informações:** mostra em tempo real:
+  - Número atual de cliques  
+  - Total de resets realizados  
+  - Quantas vezes o contador atingiu um múltiplo de 10 (reiniciado junto com o contador)
 
-Quantidade de resets realizados.
+---
 
-Quantas vezes o contador atingiu um número divisível por 10 (esse valor é zerado junto com o contador).
+## 🧰 Tecnologias Utilizadas
 
-Tecnologias utilizadas
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Bootstrap 5
+| Tecnologia | Função |
+|-------------|--------|
+| **HTML5** | Estrutura da aplicação |
+| **CSS3** | Estilização e layout responsivo |
+| **JavaScript** | Lógica e manipulação de eventos |
+| **Bootstrap 5** | Componentes e design moderno |
